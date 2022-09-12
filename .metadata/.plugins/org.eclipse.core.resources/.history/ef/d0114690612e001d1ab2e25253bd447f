@@ -1,0 +1,13 @@
+
+public class HelloWorld {
+	public static void main(String[]args) {
+		String myName = "Kent";
+		String instructorName = "George";
+		int age = 46;
+		double temperature = 82.5;
+		double pi = 3.14159;
+		System.out.println("Hello "+myName);
+		System.out.println("My Instructor name is "+ instructorName + " and his age is "+age+". The temperature is "+temperature+" degrees today.");
+		System.out.printf("%f",pi);
+	}
+}

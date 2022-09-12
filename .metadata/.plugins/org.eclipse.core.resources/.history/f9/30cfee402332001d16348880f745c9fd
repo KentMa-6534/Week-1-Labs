@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+public class TeamMenuApp {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String[]team = new String[5];
+		Scanner scan = new Scanner(System.in);
+		int decision = 0;
+		
+		while(decision != -1) {
+			 showMenu();
+			 decision = scan.nextInt();
+		}
+		
+	}
+	public static void showMenu() {
+		System.out.println("Please pick an option or enter -1 to exit: ");
+		System.out.println("1. Show team");
+		System.out.println("2. Show team member");
+		System.out.println("3. Add team member");
+		System.out.println("4. Delete team member");
+		System.out.println("5. Delete all team members");
+	}
+
+}

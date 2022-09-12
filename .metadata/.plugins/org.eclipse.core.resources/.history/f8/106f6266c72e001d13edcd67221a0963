@@ -1,0 +1,38 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class CodingQuestion {
+
+		static void doIHaveSchoolToday(String day, String month) {
+		
+		//Write your conditional statement around these two print statements below
+
+
+		    // Create your if statement here 
+		    if((day == "Saturday" || day == "Sunday") || (month == "July")){
+		    System.out.println("I do not have school today!"); // Keep this statement
+		    }
+		    //Create your else statement here
+		    else{
+		    System.out.println("I do have school today.");  // Keep this statement
+		    }
+		
+		//Write your conditional statement around these two print statements above
+
+		
+	}
+
+    // DO NOT CHANGE THE CODE BELOW THIS LINE
+
+	public static void main(String[] args) {
+		Scanner in = new Scanner(System.in);
+		String dayOfWeek, monthOfYear;
+		dayOfWeek = in.nextLine();
+		monthOfYear = in.nextLine();
+		
+		doIHaveSchoolToday(dayOfWeek, monthOfYear);
+	}
+}

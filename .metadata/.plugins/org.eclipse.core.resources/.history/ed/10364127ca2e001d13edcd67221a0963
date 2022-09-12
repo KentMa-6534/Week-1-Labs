@@ -1,0 +1,14 @@
+import java.util.Scanner;
+public class Numbers {
+	public static void main(String[]args) {
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Enter a number: ");
+		int number = scan.nextInt();
+		System.out.println("Enter a letter: ");
+		String letter = scan.nextLine();
+		
+		if((number == 1 || number == 2 || number == 3)||(letter =="A" || letter == "B"|| letter == "C")) {
+			System.out.println("1 to 3, A, B, C");
+		}
+	}
+}
